@@ -13,6 +13,7 @@
 		559EC8781BF64A550076AAC3 /* Pokemon Hollow.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 559EC8761BF64A550076AAC3 /* Pokemon Hollow.ttf */; };
 		559EC8791BF64A550076AAC3 /* Pokemon Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 559EC8771BF64A550076AAC3 /* Pokemon Solid.ttf */; };
 		559EC87B1BF64D270076AAC3 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 559EC87A1BF64D270076AAC3 /* music.mp3 */; };
+		55C096F01BF799850045DE3C /* PokemanDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C096EF1BF799850045DE3C /* PokemanDetailVC.swift */; };
 		55CEA8AF1BF0E95A00CC8997 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CEA8AE1BF0E95A00CC8997 /* AppDelegate.swift */; };
 		55CEA8B11BF0E95A00CC8997 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CEA8B01BF0E95A00CC8997 /* ViewController.swift */; };
 		55CEA8B41BF0E95A00CC8997 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55CEA8B21BF0E95A00CC8997 /* Main.storyboard */; };
@@ -28,6 +29,7 @@
 		559EC8761BF64A550076AAC3 /* Pokemon Hollow.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pokemon Hollow.ttf"; sourceTree = "<group>"; };
 		559EC8771BF64A550076AAC3 /* Pokemon Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pokemon Solid.ttf"; sourceTree = "<group>"; };
 		559EC87A1BF64D270076AAC3 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
+		55C096EF1BF799850045DE3C /* PokemanDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemanDetailVC.swift; sourceTree = "<group>"; };
 		55CEA8AB1BF0E95A00CC8997 /* pokedex-by-core.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pokedex-by-core.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55CEA8AE1BF0E95A00CC8997 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55CEA8B01BF0E95A00CC8997 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				55CEA8B01BF0E95A00CC8997 /* ViewController.swift */,
+				55C096EF1BF799850045DE3C /* PokemanDetailVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -206,6 +209,7 @@
 				55CEA8AF1BF0E95A00CC8997 /* AppDelegate.swift in Sources */,
 				555E468A1BF5883900D5E7CB /* Pokemon.swift in Sources */,
 				559EC8721BF640810076AAC3 /* csv.swift in Sources */,
+				55C096F01BF799850045DE3C /* PokemanDetailVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
